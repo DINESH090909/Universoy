@@ -1,0 +1,195 @@
+#Navbar_Universoy{
+    background-color: #FFFFFF;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+#Icon_Navbar{
+
+    color: #F89F4D;
+    font-size: 2.8em;
+    
+    
+}
+#Icon_Navbar_Close{
+
+    color: #f8f2f3;
+    font-size:      3.6em;
+    position: absolute;
+    right: 0;
+    padding: 4px;
+    margin: 20px;
+    
+}
+
+.Logo_Universoy{
+    
+    width: 150px;
+    height: 105px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+}
+
+#Btn_Panier_Accueil{
+    /*
+        font-size: 1.5em;
+        background-color: #342727;
+        color: #FFFFFF;
+        Width: 6em;
+        height: 2em;
+        justify-content: center;   
+        text-align: center;
+        margin: 0 auto;
+        box-shadow: none;
+        font-family: Teko;
+        border-color: #342727;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 60px;*/
+        width: 130px;
+        height: 100%;
+        margin-left: 20px;
+    
+        top: 52px;
+        border-color: #342727;
+        background: #342727;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 60px;
+}
+
+#Btn_Ouvert_Accueil{
+
+        max-width: 190px;
+        background-color: #F89F4D;
+        color: WHITE;
+        Width: 100%;
+        box-shadow: none;
+        font-family: "Poppins" !important;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 36px;
+        border-color: #FFFFFF;
+        border-radius: 25px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+#text_ouvert {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#icon_ouvert{
+
+    fill: #0FE617;
+    font-size: 1em;
+    text-align: left;
+    margin-right: 7%;
+}
+
+#icon_ferme{
+
+    fill: #e60f0f;
+    font-size: 1em;
+    text-align: left;
+    margin-right: 7%;
+}
+
+.Navbar_Text{
+    color: #FFFFFF;
+    text-align: left;
+    padding: 10px 40px;
+}
+
+.Navbar_Text .MuiTypography-body1{
+
+    font-family: "Poppins";
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.MuiTypography-body1:hover {
+    color: #342727;
+    border-color: #342727;
+
+}
+
+#test .MuiPaper-root{
+
+    background-color: #e29d5c;
+    width: 27em;
+    
+}
+
+#test .MuiList-padding {
+    width: max-content;
+    padding-top: 6em;
+    margin-left: 2em;
+}
+
+
+
+
+@media only screen and (max-width: 960px) {
+    
+
+    #Icon_Navbar{
+
+        color: #F89F4D;
+        font-size: 2em;
+        
+        
+    }
+
+    #Btn_Panier_Accueil{
+
+        font-size: 1.3em;
+        Width: 5.5em;
+        height: 2em;
+        display: none;
+        
+    }
+
+    #Btn_Ouvert_Accueil{
+        max-width: 130px;
+        font-size: 1.2em;
+        height: 2em;
+        
+    }
+    
+    #text_ouvert{
+        font-size: 0.8em;
+        
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    #test .MuiPaper-root{
+
+        width: 100%;
+        
+    }
+    .Logo_Universoy {
+        width: 100px;
+        height: 70px;
+    }
+
+    #text_ouvert{
+        font-size: 0.7em;
+        
+    }
+}
+
+.menu-sidee {
+    margin-left: 29px;
+
+}

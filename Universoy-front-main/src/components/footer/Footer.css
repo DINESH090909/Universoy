@@ -1,0 +1,134 @@
+.footer-copyright{
+
+    color: #FFFFFF;
+    margin: 1em;
+    font-family: Raleway;
+    
+    
+}
+
+.footer-grid{
+    background-color: #342727;
+}
+
+#footer{
+    padding: 50px 30px;
+    font-family: Raleway;
+}
+
+/* Style for text in Footer */
+#footer h5 {
+    font-weight: bolder;
+}
+
+/* Style for image logo in Footer */
+
+
+.footer-logo-border {
+    border-right: solid 1px rgb(245, 155, 37);
+    
+}
+
+
+/* Text go to left in desktop version */
+.footer-text {
+    padding-left: 20px;
+   
+
+}
+
+.grid_informations{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h5{
+
+    width: 87px;
+    height: 21px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #FB8417;
+
+}
+
+.h5_links{
+    width: 100%;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #FB8417;
+
+}
+.fbinsta{
+    display: flex;
+    justify-content: left;
+   
+}
+
+
+/* Mobile version */
+@media screen and (max-width: 970px) {
+    /* Style for Footer */
+    #footer {
+        text-align: center;
+    }
+
+    #footer img {
+        
+        margin-bottom: 20px;
+    }
+
+    /* Border on the right for footer logo */
+    .footer-logo-border {
+        border-right: solid 0px var(--secondary-color-dark);
+    }
+
+    /* Text reset position */
+    .footer-text {
+        padding-left: 0px;
+    }
+
+    /* Copyright go to center in mobile version */
+    .footer-copyright {
+         text-align: center;
+        margin: 2em;
+        width: 100%;
+    }
+}
+
+/* style for link footer */
+.footer-link {
+    color: #64A362;
+    text-decoration: none;
+}
+
+/* Style for copyrights */
+.footer-l{
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+/* mouse hover over for copyright */
+.footer-l:hover{
+    font-weight: bolder;
+    color: inherit;
+}
+
+/* When mouse on it */
+.footer-link:hover {
+    font-weight: bolder;
+    color: #64A362;
+}
